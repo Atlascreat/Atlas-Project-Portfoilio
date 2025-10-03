@@ -2,6 +2,8 @@
 
 Welcome to Atlas Project, my portfolio showcasing my work and experiments in:
 
+
+
 💻 Web Development
 
 ⚙️ Software Development
@@ -10,11 +12,15 @@ Welcome to Atlas Project, my portfolio showcasing my work and experiments in:
 
 🚀 Personal & Collaborative Projects
 
+
+
 ✨ Purpose
 
 This repository gathers my projects to highlight my growth, skills, and achievements across different areas of digital creation.
 
 Think of it as an atlas – a map of my work and explorations.
+
+
 
 📂 Portfolio Content
 
@@ -25,6 +31,8 @@ Software: programs, tools, scripts, and desktop applications
 Design: mockups, user interfaces, visual identities
 
 Experiments: creative projects, prototypes, technical tests
+
+
 
 🛠️ Tech Stack & Tools
 
