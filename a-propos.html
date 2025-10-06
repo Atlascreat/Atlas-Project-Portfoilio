@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>À propos - Atlas Creation | Développement Web Professionnel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exile&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- Particules flottantes -->
+  <div class="particles">
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+  </div>
+
+  <!-- Navbar avec menu ovale -->
+  <nav class="navbar-oval">
+    <div class="menu-button">
+      <div class="menu-text">MENU</div>
+    </div>
+    <div class="menu-expanded">
+      <a href="index.html" class="nav-link">Accueil</a>
+      <a href="index.html#projets" class="nav-link">Projets</a>
+      <a href="index.html#contact" class="nav-link">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero section -->
+  <section class="about-hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          <span class="line line-italic">Atlas Creation</span>
+          <span class="line line-accent">Votre partenaire</span>
+          <span class="line line-real">développement web</span>
+        </h1>
+        <p class="hero-subtitle">Transformons vos idées en expériences digitales exceptionnelles</p>
+        <div class="hero-cta">
+          <button class="cta-primary" onclick="document.querySelector('.hero-cta-btn').click()">
+            <i class="fas fa-rocket"></i>
+            Démarrer votre projet
+          </button>
+          <button class="cta-secondary" onclick="document.querySelector('.hero-cta-btn').click()">
+            <i class="fas fa-comments"></i>
+            Consultation gratuite
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Mission & Vision -->
+  <section class="mission-vision">
+    <div class="container">
+      <div class="mission-content">
+        <div class="mission-card">
+          <div class="mission-icon">
+            <i class="fas fa-bullseye"></i>
+          </div>
+          <h2>Notre Mission</h2>
+          <p>Créer des solutions web innovantes qui transforment les entreprises et amplifient leur présence digitale. Chaque projet est une opportunité de repousser les limites de la créativité et de la technologie.</p>
+        </div>
+        
+        <div class="vision-card">
+          <div class="vision-icon">
+            <i class="fas fa-eye"></i>
+          </div>
+          <h2>Notre Vision</h2>
+          <p>Devenir le partenaire de confiance pour toutes les entreprises qui souhaitent dominer le monde digital. Nous visons l'excellence dans chaque ligne de code et chaque pixel de design.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Expertise -->
+  <section class="expertise-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Notre Expertise</h2>
+        <p>Des compétences pointues pour des résultats exceptionnels</p>
+      </div>
+      
+      <div class="expertise-grid">
+        <div class="expertise-card">
+          <div class="expertise-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3>Développement Frontend</h3>
+          <p>Interfaces utilisateur modernes, responsives et intuitives avec les dernières technologies web (React, Vue.js, HTML5, CSS3).</p>
+          <ul class="expertise-list">
+            <li>Design responsive</li>
+            <li>Animations fluides</li>
+            <li>Performance optimisée</li>
+          </ul>
+        </div>
+
+        <div class="expertise-card">
+          <div class="expertise-icon">
+            <i class="fas fa-server"></i>
+          </div>
+          <h3>Développement Backend</h3>
+          <p>Architectures robustes et scalables pour gérer vos données et processus métier avec Node.js, Python, PHP et bases de données.</p>
+          <ul class="expertise-list">
+            <li>APIs RESTful</li>
+            <li>Sécurité renforcée</li>
+            <li>Performance optimisée</li>
+          </ul>
+        </div>
+
+        <div class="expertise-card">
+          <div class="expertise-icon">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h3>Applications Mobiles</h3>
+          <p>Applications natives et hybrides qui offrent une expérience utilisateur exceptionnelle sur tous les appareils.</p>
+          <ul class="expertise-list">
+            <li>iOS & Android</li>
+            <li>PWA avancées</li>
+            <li>Performance native</li>
+          </ul>
+        </div>
+
+        <div class="expertise-card">
+          <div class="expertise-icon">
+            <i class="fas fa-paint-brush"></i>
+          </div>
+          <h3>Design UX/UI</h3>
+          <p>Interfaces centrées sur l'utilisateur, avec une attention particulière à l'expérience utilisateur et à l'esthétique moderne.</p>
+          <ul class="expertise-list">
+            <li>Design centré utilisateur</li>
+            <li>Prototypage rapide</li>
+            <li>Tests utilisateurs</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Pourquoi nous choisir -->
+  <section class="why-choose-us">
+    <div class="container">
+      <div class="section-header">
+        <h2>Pourquoi nous choisir ?</h2>
+        <p>Des avantages concrets qui font la différence</p>
+      </div>
+      
+      <div class="advantages-grid">
+        <div class="advantage-item">
+          <div class="advantage-number">01</div>
+          <h3>Expertise Technique</h3>
+          <p>Plus de 5 ans d'expérience dans le développement web avec les technologies les plus récentes et les meilleures pratiques du secteur.</p>
+        </div>
+
+        <div class="advantage-item">
+          <div class="advantage-number">02</div>
+          <h3>Approche Personnalisée</h3>
+          <p>Chaque projet est unique. Nous adaptons nos solutions à vos besoins spécifiques, votre budget et vos objectifs business.</p>
+        </div>
+
+        <div class="advantage-item">
+          <div class="advantage-number">03</div>
+          <h3>Communication Transparente</h3>
+          <p>Suivi régulier de votre projet, mises à jour en temps réel et support client disponible 24h/24 pour répondre à toutes vos questions.</p>
+        </div>
+
+        <div class="advantage-item">
+          <div class="advantage-number">04</div>
+          <h3>Résultats Mesurables</h3>
+          <p>Nous ne nous contentons pas de livrer un site web, nous vous aidons à atteindre vos objectifs business avec des métriques claires.</p>
+        </div>
+
+        <div class="advantage-item">
+          <div class="advantage-number">05</div>
+          <h3>Support Post-Livraison</h3>
+          <p>Maintenance, mises à jour et support technique continu pour garantir la performance de votre solution dans le temps.</p>
+        </div>
+
+        <div class="advantage-item">
+          <div class="advantage-number">06</div>
+          <h3>Prix Compétitifs</h3>
+          <p>Des tarifs transparents et adaptés à votre budget, sans compromis sur la qualité et les fonctionnalités.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Processus -->
+  <section class="process-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Notre Processus</h2>
+        <p>Une méthodologie éprouvée pour des résultats garantis</p>
+      </div>
+      
+      <div class="process-timeline">
+        <div class="process-step">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h3>Découverte & Analyse</h3>
+            <p>Compréhension approfondie de vos besoins, objectifs et contraintes pour définir la meilleure stratégie.</p>
+          </div>
+        </div>
+
+        <div class="process-step">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h3>Conception & Planning</h3>
+            <p>Création de wireframes, maquettes et planning détaillé du projet avec validation à chaque étape.</p>
+          </div>
+        </div>
+
+        <div class="process-step">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h3>Développement</h3>
+            <p>Codage de votre solution avec des standards de qualité élevés et des tests continus.</p>
+          </div>
+        </div>
+
+        <div class="process-step">
+          <div class="step-number">4</div>
+          <div class="step-content">
+            <h3>Tests & Optimisation</h3>
+            <p>Tests approfondis sur tous les appareils et navigateurs, optimisation des performances et de la sécurité.</p>
+          </div>
+        </div>
+
+        <div class="process-step">
+          <div class="step-number">5</div>
+          <div class="step-content">
+            <h3>Livraison & Support</h3>
+            <p>Mise en ligne de votre projet avec formation et support continu pour votre équipe.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section CTA finale -->
+  <section class="final-cta">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Prêt à transformer votre vision en réalité ?</h2>
+        <p>Rejoignez les entreprises qui ont déjà fait confiance à Atlas Creation pour leur transformation digitale.</p>
+        <div class="cta-buttons">
+          <button class="cta-primary-large" onclick="document.querySelector('.hero-cta-btn').click()">
+            <i class="fas fa-rocket"></i>
+            Démarrer votre projet maintenant
+          </button>
+          <button class="cta-secondary-large" onclick="document.querySelector('.hero-cta-btn').click()">
+            <i class="fas fa-calendar-alt"></i>
+            Planifier une consultation
+          </button>
+        </div>
+        <div class="cta-stats">
+          <div class="stat-item">
+            <div class="stat-number">50+</div>
+            <div class="stat-label">Projets livrés</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">98%</div>
+            <div class="stat-label">Clients satisfaits</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">24/7</div>
+            <div class="stat-label">Support client</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="about-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>Atlas Creation</h3>
+          <p>Votre partenaire développement web de confiance</p>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Accueil</a>
+          <a href="index.html#projets">Projets</a>
+          <a href="index.html#contact">Contact</a>
+        </div>
+        <div class="footer-cta">
+          <button class="footer-btn" onclick="document.querySelector('.hero-cta-btn').click()">
+            Demander un devis
+          </button>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Atlas Creation. Tous droits réservés.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal de devis (caché mais accessible) -->
+  <div id="devisModal" class="devis-modal">
+    <div class="devis-modal-content">
+      <form class="devis-form" action="https://formspree.io/f/xgvzqnew" method="POST">
+        <h2>Demande de devis</h2>
+        <div class="form-group">
+          <label for="name">Nom complet *</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="projectType">Type de projet</label>
+          <select id="projectType" name="projectType">
+            <option value="">Sélectionnez un type</option>
+            <option value="site-vitrine">Site vitrine</option>
+            <option value="e-commerce">E-commerce</option>
+            <option value="application-web">Application web</option>
+            <option value="application-mobile">Application mobile</option>
+            <option value="autre">Autre</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="description">Description du projet *</label>
+          <textarea id="description" name="description" rows="4" required placeholder="Décrivez votre projet, vos objectifs et vos besoins..."></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Envoyer ma demande</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
