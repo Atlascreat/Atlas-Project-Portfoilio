@@ -38,9 +38,7 @@ Experiments: creative projects, prototypes, technical tests
 
 Some of the technologies I frequently use:
 
-Front-end: HTML, CSS, JavaScript, React, TailwindCSS
-
-Back-end: Node.js, Express, MongoDB
+Front-end: HTML, CSS, JavaScript,
 
 Software: Python, Java, C#
 
